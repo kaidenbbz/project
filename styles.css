@@ -396,3 +396,68 @@ body{
 .img__four{
     background: url(img/four.png), lightgray 50% / cover no-repeat;
 }
+.main__work{
+    display: flex;
+    width: 1920px;
+    padding: 80px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 71px;
+    background: linear-gradient(180deg, rgba(255, 206, 103, 0.22) -42.47%, rgba(253, 237, 202, 0.00) 100%);
+}
+.work__title{
+    color: #F17228;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 112%; 
+}
+
+.main__row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.row-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 41px;
+}
+
+
+.item__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.text__title{
+    width: 307px;
+    flex: 1 0 0;
+    color: #434343;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 120%; 
+}
+
+.text__content{
+    color: var(--theme-gray-500, #9E9E9E);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%; 
+    align-self: stretch;
+    max-width: 307px;
+}
+.item__logo{
+    filter: drop-shadow(0px 20px 40px rgba(255, 174, 0, 0.29)) drop-shadow(0px 5px 10px rgba(255, 174, 0, 0.26));
+}
